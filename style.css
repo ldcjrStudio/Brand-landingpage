@@ -172,13 +172,13 @@ section {
 }
 
 .section-1 .circle {
-  left: -30px;
-  top: 60px;
+  left: -20px;
+  top: 180px;
 }
 
 .section-1 .circle-2 {
   bottom: -30px;
-  left: 25%;
+  left: 50%;
 }
 
 .section-1 img,
@@ -211,7 +211,7 @@ section {
 }
 
 .section-2 .copy {
-  left: 20px;
+  left: 100px;
 }
 
 .section-2 img {
@@ -221,12 +221,12 @@ section {
 
 .section-2 .circle {
   right: 45%;
-  top: 60px;
+  bottom: 200px;
   transform: translateX(50%);
 }
 
 .section-2 .circle-2 {
-  bottom: 100px;
+  top: 100px;
   right: -30px;
 }
 
@@ -299,12 +299,12 @@ section {
 
 .section-3 .circle {
   right: 150px;
-  top: -30px;
+  top: 0px;
 }
 
 .section-3 .circle-2 {
   left: 0;
-  top: 250px;
+  bottom: 250px;
 }
 
 .section-3 h2,
@@ -325,7 +325,7 @@ footer {
   background-position: top;
   background-size: cover;
   height: 260px;
-  padding: 100px 0;
+  padding: 40px 0;
   text-align: center;
 }
 
@@ -346,36 +346,8 @@ footer nav a {
   text-decoration: none;
 }
 
-fotter nav a:hover {
-  background-color: #d9fe00;
-}
-
-/*
-
-footer {
-  background-image: url(footer.svg);
-  background-position: top;
-  background-size: cover;
-  height: 260px;
-  padding: 200px 0;
-  text-align: center;
-}
-
-footer nav {
-  display: flex;
-  justify-content: space-around;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 100px 40px 40px;
-  width: 100%;
-}
-
-footer nav a {
-  color: white;
-  font-size: 50px;
-  font-weight: 700;
-  padding-right: 15px;
-  text-decoration: none;
+footer nav a:hover {
+  color: #d9fe00;
 }
 
 @media (max-width: 800px) {
@@ -392,12 +364,12 @@ footer nav a {
     padding-right: 10px;
   }
 
-  .menu {
+  #nav-menu {
     width: 100%;
   }
 
-  .menu .pages,
-  .menu .social {
+  #nav-menu .pages,
+  #nav-menu .social {
     right: 40px;
   }
 
@@ -419,7 +391,7 @@ footer nav a {
   }
 
   .circle,
-  .square {
+  .circle-2 {
     height: 50px;
     width: 50px;
   }
@@ -433,16 +405,16 @@ footer nav a {
     top: 60px;
   }
 
-  .section-1 .square,
-  .section-2 .square,
-  .section-3 .square {
+  .section-1 .circle-2,
+  .section-2 .circle-2,
+  .section-3 .circle-2 {
     bottom: auto;
     left: auto;
     right: 15px;
     top: 300px;
   }
 
-  .menu .pages a,
+  #nav-menu .pages a,
   .section-1 h2,
   .section-2 h3,
   .lookbook h3,
@@ -466,7 +438,7 @@ footer nav a {
     left: 0;
   }
 
-  .section-3 .square {
+  .section-3 .circle-2 {
     top: 150px;
   }
 
@@ -482,14 +454,14 @@ footer nav a {
   }
 
   footer nav {
-    background-color: #ffd363;
+    background-color: #1a1a1a;
     flex-direction: column;
     padding: 40px;
   }
 }
 
 @media (max-width: 800px) {
-  .menu .pages a,
+  #nav-menu .pages a,
   .section-1 h2,
   .section-2 h3,
   .lookbook h3,
@@ -497,4 +469,4 @@ footer nav a {
   footer nav a {
     font-size: 50px;
   }
-} */
+}
