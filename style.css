@@ -44,11 +44,11 @@ header {
   align-items: center;
 }
 
-header h1 {
+/* header h1 {
   position: fixed;
   left: 45px;
   top: 45px;
-}
+} */
 
 header nav a {
   color: #fff;
@@ -71,7 +71,7 @@ header nav a.eye {
 }
 
 #nav-menu {
-  background-color: #ffd363;
+  background-color: #292929;
   color: #fff;
   height: 100%;
   position: fixed;
@@ -107,7 +107,7 @@ nav.pages a {
 }
 
 nav.pages a:hover {
-  color: red;
+  color: #d9fe00;
 }
 
 nav.socials {
@@ -325,7 +325,7 @@ footer {
   background-position: top;
   background-size: cover;
   height: 260px;
-  padding: 200px 0;
+  padding: 100px 0;
   text-align: center;
 }
 
@@ -344,6 +344,10 @@ footer nav a {
   font-weight: 700;
   padding-right: 15px;
   text-decoration: none;
+}
+
+fotter nav a:hover {
+  background-color: #d9fe00;
 }
 
 /*
