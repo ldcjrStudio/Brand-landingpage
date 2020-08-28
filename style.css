@@ -197,6 +197,7 @@ section {
 .section-2 {
   display: flex;
   flex-direction: row-reverse;
+  position: relative;
 }
 
 .section-2 h3 {
@@ -221,12 +222,12 @@ section {
 
 .section-2 .circle {
   right: 45%;
-  bottom: 200px;
+  bottom: 100px;
   transform: translateX(50%);
 }
 
 .section-2 .circle-2 {
-  top: 100px;
+  top: 0px;
   right: -30px;
 }
 
