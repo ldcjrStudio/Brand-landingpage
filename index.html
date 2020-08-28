@@ -12,19 +12,20 @@
     </head>
   </head>
   <body>
+    <div class="progress"></div>
     <header>
       <h1>
         <img src="logo.svg" />
+        <div class="pixels">0</div>
       </h1>
       <nav>
-        <a href="#"><img src="eye-icon.svg" />Menu</a>
+        <a href="#" class="eye"><img src="eye-icon.svg" />Menu</a>
       </nav>
     </header>
-    <section id="menu">
-      <nav class="menu">
+    <section id="nav-menu">
+      <nav class="pages">
         <a href="index.html">Home</a>
-        <a href="index.html">Lookbook</a>
-        <a href="index.html">Store</a>
+        <a href="index.html">Catalog</a>
         <a href="index.html">Contact</a>
       </nav>
 
@@ -38,46 +39,51 @@
     <section class="section-1">
       <img src="image_1.jpg" />
       <div class="copy">
-        <h2>Clothes as Natural as you are</h2>
+        <h2>A great bounce is what makes a great tennis ball</h2>
       </div>
 
-      <div class="circle"></div>
-      <div class="square"></div>
+      <div class="circle" data-parallax="0.5"></div>
+      <div class="circle-2" data-parallax="-0.1"></div>
     </section>
 
     <section class="section-2">
       <img src="image_2.jpg" />
       <div class="copy">
-        <h2>Doing one thing well</h2>
+        <h3>Doing one thing well</h3>
         <p>
-          We make clothes. That's it. Nothing else. No distractions. Nothing to
-          steal out focus.
+          We make tennis balls. That's it. Nothing else. No distractions.
+          Nothing to steal out focus.
         </p>
       </div>
 
-      <div class="circle"></div>
-      <div class="square"></div>
+      <div class="circle" data-parallax="0.7"></div>
+      <div class="circle-2" data-parallax="-0.4"></div>
     </section>
 
     <section class="lookbook">
       <img src="eye-icon.svg" />
-      <h3>View Lookbooks</h3>
+      <h3>
+        The ball you will see bouncing back and forth at this year US Open
+      </h3>
     </section>
 
-    <section class="section_3">
+    <section class="section-3">
       <img src="image_4.jpg" />
       <div class="copy">
-        <h2>View our Spring Collection</h2>
+        <h2>View our Collection</h2>
       </div>
-      <div class="circle"></div>
-      <div class="square"></div>
+      <div class="circle" data-parallax="0.3"></div>
+      <div class="circle-2" data-parallax="-0.7"></div>
     </section>
 
     <footer>
-      <a href="#">Facebook</a>
-      <a href="#">Twitter</a>
-      <a href="#">Instagram</a>
-      <a href="#">Tumblr</a>
+      <nav>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">Tumblr</a>
+      </nav>
     </footer>
+    <script src="base.js"></script>
   </body>
 </html>
